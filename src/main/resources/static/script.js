@@ -20,5 +20,5 @@ async function postData() {
         .then((res) => {
             window.location.href = "/data";
         })
-        .catch((err) => console.log(err));
+        .catch((err) => alert(err));
 }
